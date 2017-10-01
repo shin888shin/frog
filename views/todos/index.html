@@ -1,0 +1,7 @@
+{{ define "content" }}
+<h4>Todos</h4>
+{{range .Todos}}
+  <p>{{.Id}} {{.Name}} - {{.Description}}</p>
+{{end}}
+
+{{ end }}
